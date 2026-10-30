@@ -1,0 +1,72 @@
+/*
+ * From w3schools
+ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /**
+   * Grid from Claude
+   */
+  background-color: #11111b;
+  background-image:
+    linear-gradient(to right, #1e1e2e 1px, transparent 1px),
+    linear-gradient(to bottom, #1e1e2e 1px, transparent 1px);
+  background-size: 40px 40px;
+
+  user-select: none;
+  color: #cdd6f4;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid #313244;
+  background-color: #11111b;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: #cdd6f4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+.logo {
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+.cent {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    width: 40vw;
+}
