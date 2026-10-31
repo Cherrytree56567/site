@@ -12,7 +12,7 @@ async function startTypingMore() {
     var text = "I'm currently working on ClientWarden, a secure, visually appealing, well designed, lightweight and platform specific alternative to the default Bitwarden Client.";
 
     for (const char of text) {
-        await sleep(20);
+        await sleep(40);
         main_text.textContent += char;
     }
 }
@@ -23,7 +23,7 @@ async function startTyping() {
     var text = "Hi, I'm CT5!";
 
     for (const char of text) {
-        await sleep(50);
+        await sleep(70);
         main_text.textContent += char;
     }
 
